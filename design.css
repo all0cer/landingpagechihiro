@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(130.02deg, #c46ff5 0.66%, #84a5ffda 83.32%);
+}
+
+
+header{
+    width: 80%;
+    padding: 20px 0px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a{
+    padding: 8px;
+    margin: 10px;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(233, 229, 225);
+    align-items: center;
+}
+
+section{
+    padding: 110px 0px;
+    width: 50%;
+}
+
+h1{
+    font-weight:bold;
+    font-size: 55px;
+    line-height: 109%;
+}
+
+h2{
+    font-weight: 500;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.btn{
+    padding: 10px;
+    text-decoration: none;
+    color: inherit;
+    transform: skew(-24deg);
+}
+
+.btn p{
+     transform: skew(24deg);
+     font-weight: 400;
+    }
+
+.botijao{
+    background-color: rgb(170, 2, 248);
+    border: solid;
+    border-color: rgb(170, 2, 248);
+}
+
+.botijao2{
+    border: solid;
+    border-color: rgb(170, 2, 248);
+}
