@@ -8,7 +8,12 @@ body{
     background: linear-gradient(130.02deg, #c46ff5 0.66%, #84a5ffda 83.32%);
 }
 
-
+.but{
+    padding: 3px;
+}
+.but a{
+    text-decoration: none;
+}
 header{
     width: 80%;
     padding: 20px 0px;
@@ -72,7 +77,15 @@ nav{
     border-color: rgb(170, 2, 248);
 }
 
+.botijao:hover{
+    background-color: #84a5ffda;
+    border-color: #84a5ffda;
+}
 .botijao2{
     border: solid;
     border-color: rgb(170, 2, 248);
+}
+.botijao2:hover{
+    background-color: #84a5ffda;
+    border-color: #84a5ffda;
 }
